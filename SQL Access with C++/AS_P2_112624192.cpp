@@ -1,6 +1,6 @@
 //hostname: mymysql.senecacollege.ca:3306
-//username : your MySQL username db_yhde_oliveira_falcao
-//password : you MySQL password  3mR+8xcFv[
+//username : your MySQL username 
+//password : you MySQL password  
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <mysql.h>
