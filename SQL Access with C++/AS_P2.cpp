@@ -41,7 +41,7 @@ int main(void) {
 	conn = mysql_init(0);
 
 
-	conn = mysql_real_connect(conn, "mymysql.senecacollege.ca", "db_vhaddadi", "Selena@2016", "db_vhaddadi", 3306, nullptr, 0);
+	conn = mysql_real_connect(conn, "", "", "", "", 3306, nullptr, 0);
 
 	do {
 
