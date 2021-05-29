@@ -261,7 +261,7 @@ int main() {
 	MYSQL* conn; //Declaration of pointer variable to store the connection info
 	Employee* ArgEmplo = nullptr; 
 	conn = mysql_init(0); //declare the pointer variable to the initialier function for MYSQL
-	conn = mysql_real_connect(conn, "mymysql.senecacollege.ca", "db_yhde-oliveira-falcao", "3mR+8xcFv[", "db_yhde-oliveira-falcao", 3306, nullptr, 0);
+	conn = mysql_real_connect(conn, "", "", "", "", 3306, nullptr, 0);
 	// Establish a connection of the application with my database in MYSQL hosted by Seneca College
 	if (conn) // Test if the connection is successful
 	{ 
